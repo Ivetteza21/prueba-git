@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta autor="Ivette Zamora Olvera">
+        <meta name="description" content="Taller de maquetacion web ">
+        <meta name="keywords" content="HTML5, CSS3, JavaScript">
+        <title>Clothing </title>
+     <style>
+        Body{
+            background: white;
+        }
+        #contenedorPrincipal {
+            width: 90%;
+            margin: auto;
+        }
+
+        .Elementos img {
+            width: 100px;
+            height: 100px;
+        }
+
+        .logotipo{
+            background:  rgba(238, 130, 238, 0.288);
+            grid-row: 1;
+            grid-column: 1/5;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .Elementos{
+            background:rgba(255, 160, 122, 0.425);;
+            border-radius: 10px;
+            padding: 10px;
+            min-width: 105px;
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+
+        #galeria {
+            display: grid;
+            grid-template-rows: 150px 150px 150px;
+            /*altura de las filas*/
+            grid-template-columns: 30% 30% 30%;
+            /* ancho de las columnas*/
+            grid-gap: 15px 20px;
+            /* distancia row column*/
+
+        }
+
+        .Elementos:nth-child(2) {
+            grid-row: 2 ;
+            grid-column: 1/5;
+            background: gainsboro;
+        }
+
+        .Elementos:nth-child(3) {
+            grid-row: 3 ;
+            grid-column: 1;
+        }
+
+        .Elementos:nth-child(4) {
+            grid-row: 3 ;
+            grid-column: 2;
+        }
+        .Elementos:nth-child(5) {
+            grid-row: 3 ;
+            grid-column: 3;
+        }
+        .Elementos:nth-child(6) {
+            grid-row: 4 ;
+            grid-column: 1;
+        }
+        .Elementos:nth-child(7) {
+            grid-row: 4 ;
+            grid-column: 2;
+        }
+        .Elementos:nth-child(8) {
+            grid-row: 4;
+            grid-column: 3;
+        }
+        .Elementos:nth-child(9) {
+            grid-row: 5;
+            grid-column: 1;
+        }
+        .Elementos:nth-child(10) {
+            grid-row: 6;
+            grid-column: 1/5;
+            background: gainsboro;
+        }
+        .Elementos:nth-child(11) {
+            grid-row: 7;
+            grid-column: 1;
+        }
+        .Elementos:nth-child(12) {
+            grid-row: 7 ;
+            grid-column: 2;
+        }
+        .Elementos:nth-child(13) {
+            grid-row: 7 ;
+            grid-column: 3;
+        }
+        .Elementos:nth-child(14) {
+            grid-row: 8;
+            grid-column: 1;
+        }
+        .Elementos:nth-child(15) {
+            grid-row: 9;
+            grid-column: 1/5;
+            background: gainsboro;
+        }
+        .Elementos:nth-child(16) {
+            grid-row: 10;
+            grid-column: 1;
+        }
+        .Elementos:nth-child(17) {
+            grid-row: 10 ;
+            grid-column: 2;
+        }
+        .Elementos:nth-child(18) {
+            grid-row: 10;
+            grid-column: 3;
+        }
+        .Elementos:nth-child(19) {
+            grid-row: 11;
+            grid-column: 1/5;
+            background:rgba(238, 130, 238, 0.288) ;
+        }
+
+     </style>
+
+    </head>
+<body>
+    <div id="contenedorPrincipal">
+        <div id="galeria">
+            <div class="logotipo">
+            <center><h1> Clothing </h1></center>
+            </div>
+            <div class="Elementos">
+                <h2>Ropa de  Mujer</h2>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/46/96/0f/46960f331df6726fe14cb805a7880f61.jpg" alt="Blusa">
+                <p>Blusas</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/29/5a/5b/295a5b5bafeb74ad2bca2084d3caab77.jpg" alt="Pantalon">
+                <p>Pantalones</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/d3/f2/98/d3f29880680203d65a59322df6ccb87e.jpg" alt="short">
+                <p>Shorts</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/9a/ea/ab/9aeaab06825694a36b2dbca4b3cd8c0a.jpg" alt="falda">
+                <p>Faldas</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/dc/f4/05/dcf405cae402165c57bcc08624059343.jpg" alt="vestido">
+                <p>Vestidos</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/7a/7b/c6/7a7bc66a544b2b3d7c07c3a8d85eda10.jpg" alt="camisa">
+                <p>Camisas</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/06/e7/84/06e784c7a9782c441f33272eae8a6a54.jpg" alt="abrigo">
+                <p>Abrigos</p>
+            </div>
+            <div class="Elementos">
+                <h2>Ropa de  Hombre</h2>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/8d/29/3b/8d293b8e83dbc207c9a6f8b1b05cff49.jpg" alt="camisa de hombre">
+                <p>Camisas</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/0e/a8/58/0ea858e24e1e133526f17d36168d18f0.jpg" alt="pantalon de hombre">
+                <p>Pantalones</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/c4/d3/df/c4d3df7be616b9be1a0c3a99a1e73516.jpg" alt="bermuda">
+                <p>Bermudas</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/98/44/52/984452f10e2750397685058b8b1a8958.jpg" alt="Sueter">
+                <p>Sueteres</p>
+            </div>
+            <div class="Elementos">
+                <h2>Zapatos</h2>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/53/7f/50/537f5041d09cde97c1cb1cd8d07c6609.jpg" alt="sandalia">
+                <p>Sandalias</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/e7/67/8c/e7678cae21521ae52b2092d0111fe152.jpg" alt="tacon">
+                <p>Tacones</p>
+            </div>
+            <div class="Elementos">
+                <img src="https://i.pinimg.com/564x/86/94/fb/8694fbc325e927e19a4d07682c67e107.jpg" alt="deportivo">
+                <p>Deportivos hombre y mujer </p>
+            </div>
+            <div class="Elementos">
+                <footer>
+                    <center><address>Dirección: Argentina y Eloy Alfaro</address></center>
+                    <center>Derechos reservados& copy ; 2021-2022</center>
+                 </footer>  
+            </div>
+    </div>
+</div>
+</body>
+</html>
